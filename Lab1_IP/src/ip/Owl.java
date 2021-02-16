@@ -1,15 +1,15 @@
 package ip;
 
-public class Horse extends Animals{
+public class Owl extends Animals{
     private String name;
     private String environment;
     private String tip;
 
-    public Horse(String name, String environment)
+    public Owl(String name, String environment)
     {
         this.name = name;
         this.environment = environment;
-        this.tip = "horse";
+        this.tip = "owl";
     }
 
     @Override

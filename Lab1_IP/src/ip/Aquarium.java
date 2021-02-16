@@ -1,29 +1,27 @@
 package ip;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 
-public class Animal_Pen {
+public class Aquarium {
 
-    private static ArrayList<Animals> ground_zoo = new ArrayList<>();
+    private static ArrayList<Animals> aqua_zoo = new ArrayList<>();
 
     public void addAnimal(Animals a)
     {
-        if(a.environment() == "terrestrial")
-            this.ground_zoo.add(a);
+        if(a.environment() == "aqua")
+            this.aqua_zoo.add(a);
         else
-            System.out.printf("Animalul %s nu este terestru", a.name());
+            System.out.printf("Animalul %s nu este acvatic", a.name());
     }
 
     public void deleteAnimal(Animals a)
     {
-        this.ground_zoo.remove(a);
+        this.aqua_zoo.remove(a);
     }
 
     public void Print()
@@ -41,7 +39,7 @@ public class Animal_Pen {
 
         String s;
         try {
-            for(Animals i : ground_zoo) {
+            for(Animals i : aqua_zoo) {
                 s = i.name() + " is " + i.getTip() + "\n";
                 Files.write(Paths.get("filename.txt"), s.getBytes(), StandardOpenOption.APPEND);
             }
