@@ -1,0 +1,45 @@
+Bob is horse
+Bob1 is horse
+Bob1 is horse
+L1 is lion
+L2 is lion
+L3 is lion
+P1 is parrot
+P2 is parrot
+P3 is parrot
+O1 is owl
+O2 is owl
+O3 is owl
+S1 is shark
+S2 is shark
+S3 is shark
+TF1 is tropical_fish
+TF2 is tropical_fish
+TF3 is tropical_fish
+Bob is horse
+Bob1 is horse
+L1 is lion
+L3 is lion
+P1 is parrot
+P3 is parrot
+O1 is owl
+O3 is owl
+S1 is shark
+S3 is shark
+TF1 is tropical_fish
+TF3 is tropical_fish
+P1 eats seeds.
+P1 flys
+the sound made by P1 : can repeat some words after you
+S1 : blue 
+S1 eats meat 
+S1 swims 
+Bob1 - may have different colours: brown,white,black 
+Bob1 : nihahaaaaa 
+Bob1 moves using 4 legs 
+the sound of O2 :buhuhuuuuu 
+O2 flys 
+O2 eats seeds.
+TF2 eats meat 
+the sound of TF2 :hard to discribe  
+TF1 swims 
